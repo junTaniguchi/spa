@@ -37,7 +37,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -61,7 +63,8 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
+    "gh-pages": "^2.2.0",
     "svg-react-loader": "^0.4.6"
   },
-  "homepage" : "http://myname.github.io/myapp"
+  "homepage": "http://junTaniguchi.github.io/spa"
 }
